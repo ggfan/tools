@@ -15,21 +15,14 @@ multiplayer game on [C++ Nearby Connection interface SDK](https://developers.goo
 ##How to run a sample##
 
 For generic play game related instruction, please follow steps described in [Getting Started for C++](https://developers.google.com/games/services/cpp/GettingStartedNativeClient)
-
-For this specific demo,simple steps:
-1. Item 1
-1. Item 1
-2. Item 2
-3. Item 3
-
 ####Specific Steps for This App####
 1. Build App
 2. Install on phone
-3. Set ONE and ONLY ONE phone/device to be advertising first
+3. Set ONE and ONLY ONE phone/device to be advertising
 4. All other devices to be discovering after advertising is ready (indicator is "stop" button is enabled)
-5. Monitor bottom of the UI for "Connected Clients"; once anyone connected, it should be bigger than 0, "Play Game" is enabled; From that, you could play it at any time
-6. while playing, your own score and other player's score should be visible to you at the bottom of the screen
-       note: play time is 30 second by default, set in GAME_DURATION in header file
+5. Monitor bottom of the UI for "Connected Clients"; once anyone connected, it should be bigger than 0, "Play Game" should be enabled; from here, you could play it at any time
+6. While playing, your own score and other player's scores should be visible to you at the bottom of the screen
+       note: play time is 30 second by default, and was hard coded as GAME_DURATION in header file
 
 ##Support##
 
