@@ -6,6 +6,7 @@ Copyright (C) 2015 Google Inc.
 
 NearbyConnectionsNative: The sample demonstrates real time
 multiplayer game on [C++ Nearby Connection interface SDK](https://developers.google.com/games/services/cpp/nearby).
+
 * Create nearby_connection interface gpg::NearbyConnections::Builder
 * Connect to other peers via StartAdvertising(), StartDiscovery()
 * Send messages with SendReliableMessage() and SendUnreliableMessage()
