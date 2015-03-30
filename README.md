@@ -22,7 +22,7 @@ For this specific demo,simple steps:
 2. Item 2
 3. Item 3
 
-##Another##
+###Another###
 1. Build App
 2. Install on phone
 3. Set ONE and ONLY ONE phone/device to be advertising first
