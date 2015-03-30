@@ -17,6 +17,12 @@ multiplayer game on [C++ Nearby Connection interface SDK](https://developers.goo
 For generic play game related instruction, please follow steps described in [Getting Started for C++](https://developers.google.com/games/services/cpp/GettingStartedNativeClient)
 
 For this specific demo,simple steps:
+1. Item 1
+1. Item 1
+2. Item 2
+3. Item 3
+
+##Another##
 1. Build App
 2. Install on phone
 3. Set ONE and ONLY ONE phone/device to be advertising first
