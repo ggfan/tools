@@ -36,8 +36,6 @@ const struct android_native_power_definitions cmds[] = {
 };
 const int32_t cmd_size = sizeof(cmds) / sizeof(cmds[0]);
 
-
-
 int main(int argc, const char * argv[]) {
     if (argc < 2 ) {
         std::cout<<"usage: power_code command_enum command_string"<<std::endl;

@@ -69,6 +69,7 @@ void* TestMain(void  *ctx) {
     waitTime.tv_nsec = 5 * 1000;
 
     while (tstEngine->on) {
+        
         tstEngine->ReleaseMemory();
         tstEngine->AllocMemory();
         nanosleep(&waitTime, NULL);
